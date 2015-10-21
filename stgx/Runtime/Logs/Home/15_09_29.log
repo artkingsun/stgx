@@ -1,0 +1,15 @@
+[ 2015-09-29T17:08:35+08:00 ] 127.0.0.1 /stgx/index.php?s=Home/Found/changeFoundGetStatus&foundid=19
+ERR: 参数错误或者未定义:foundget
+
+[ 2015-09-29T17:08:38+08:00 ] 127.0.0.1 /stgx/index.php?s=Home/Found/changeFoundGetStatus&foundid=18
+ERR: 参数错误或者未定义:foundget
+
+[ 2015-09-29T17:08:58+08:00 ] 127.0.0.1 /stgx/index.php?s=Home/Found/changeFoundGetStatus&foundid=17
+ERR: 参数错误或者未定义:foundget
+
+[ 2015-09-29T17:21:41+08:00 ] 127.0.0.1 /stgx/index.php?s=Home/Index/personSet
+ERR: 非法操作:personset
+
+[ 2015-09-29T17:21:50+08:00 ] 127.0.0.1 /stgx/index.php?s=Home/Index/personSet
+ERR: 非法操作:personset
+

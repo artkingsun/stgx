@@ -1,0 +1,1 @@
+a:7:{i:0;s:6:"feedid";i:1;s:11:"feedcontent";i:2;s:8:"feedtime";i:3;s:11:"feedcontact";i:4;s:6:"userid";s:3:"_pk";s:6:"feedid";s:5:"_type";a:5:{s:6:"feedid";s:7:"int(11)";s:11:"feedcontent";s:12:"varchar(200)";s:8:"feedtime";s:7:"int(11)";s:11:"feedcontact";s:11:"varchar(20)";s:6:"userid";s:7:"int(11)";}}

@@ -1,0 +1,278 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+body {
+    margin: 0;
+}
+textarea{
+    resize: none;
+}
+.footer{
+    background-color: #080808;
+    min-height: 100px;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    margin-top: 150px;
+}
+.footer-fixed{
+    position: fixed;
+    bottom: 0;
+}
+.footer p,.footer-fixed p{
+    text-align:center;
+    font-size: large;
+    color:#f9f9f9;
+}
+/*面板*/
+.panel{
+    border-radius: 0;
+    border: 2px solid rgb(78,29,76);
+    width: 100%;
+    min-height: 150px;
+    overflow: hidden;
+    background-color: rgb(119,52,96);
+    -webkit-box-shadow: 0 0 15px rgba(78,29,76,.5);
+    box-shadow: 0 0 15px rgba(78,29,76,.5);
+    padding: 10px;
+}
+.panel:focus,
+.panel:hover{
+    border-radius: 0;
+    -webkit-box-shadow: 5px 5px 15px rgba(78,29,76,.8);
+    box-shadow: 5px 5px 15px rgba(78,29,76,.8);
+}
+.panel>.panel-head{
+    overflow: auto;
+    width: 100%;
+    min-height: 50px;
+    color: #080808;
+    background-color: rgb(119,52,96);
+}
+.panel a,.panel-head p{
+    text-decoration: none;
+    font-size: 16px;
+}
+.panel-head img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 5px solid rgb(78,29,76);
+}
+.panel-head a{
+    color: rgb(255,255,255);
+}
+.panel a:hover img{
+    border-radius: 100%;
+    border: 5px solid rgb(78,29,76);
+    box-shadow: 0 0 10px rgba(150,150,150,.5);
+}
+.panel a:hover{
+    box-shadow: 0 0 5px rgba(150,150,150,.5);
+}
+.panel>.panel-head>.box-left{
+    float: left;
+    padding: 0 10px 0 0;
+}
+.panel>.panel-content{
+    width: 100%;
+    min-height: 50px;
+    overflow: hidden;
+}
+
+.panel-content>p{
+    color: rgb(227,179,37);
+    font-size: 14px;
+    text-indent:2em;
+}
+.panel-content>.panel-content-left{
+    float: left;
+    width: 40%;
+    height: 150px;
+}
+.panel-content>.panel-content-right{
+    float: left;
+    width: 60%;
+    height: 150px;
+    padding: 0 0 0 10px;
+}
+.panel-content>.panel-content-left>img{
+    width:100%;
+    height: 100%;
+}
+.panel-content>.panel-content-right>p{
+    color: rgb(227,179,37);
+    font-size: 14px;
+    text-indent:2em;
+}
+.panel>.panel-footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(119,52,96);
+    border-top: 0;
+    padding:10px 0;
+}
+.id-none{
+    display: none;
+}
+.select-list{
+    width: 100%;
+    height: 45px;
+}
+/*垂直导航栏*/
+.nav-list{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-list > li {
+    position: relative;
+    display: block;
+}
+.nav-list > li > a {
+    color: rgb(20,0,28);
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-list > li > a:hover,
+.nav-list > li > a:focus,
+.nav-list > li > .active{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    background-color: rgb(119,52,96);
+    box-shadow: 0 0 5px rgba(150,150,150,.8);
+}
+/*水平导航栏*/
+.nav-list-left{
+    overflow: hidden;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-list-left > li {
+    float: left;
+    position: relative;
+    display: block;
+}
+.nav-list-left > li > a {
+    color: rgb(20,0,28);
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-list-left > li > a:hover,
+.nav-list-left > li > a:focus,
+.nav-list-left > li > .active{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    background-color: rgb(119,52,96);
+    box-shadow: 0 0 5px rgba(150,150,150,.8);
+}
+/*按钮颜色*/
+/*紫色*/
+.btn-violet{
+    color: rgb(255,255,255);
+    background-color: rgb(119,52,96);
+    box-shadow: 0 0 5px rgba(150,150,150,.8);
+}
+.btn-violet:hover,
+.btn-violet:focus,
+.btn-violet:active{
+    color: rgb(255,255,255);
+    background-color: rgb(78,29,76);
+    box-shadow: 0 0 5px rgba(150,150,150,.8);
+}
+/*黄色*/
+.btn-yellow{
+    color: rgb(78,29,76);
+    background-color:  rgba(255,255,0,.8);
+    box-shadow: 0 0 5px rgba(150,150,150,.8);
+}
+.btn-yellow:hover,
+.btn-yellow:focus,
+.btn-yellow:active{
+    color: rgb(78,29,76);
+    background-color:  rgb(255,255,0);
+    box-shadow: 0 0 5px rgba(150,150,150,.8);
+}
+/*白色*/
+.btn-white{
+    color: rgba(0,0,0,.8);
+    background-color:  rgba(255,255,255,1);
+    box-shadow: 0 0 5px rgba(150,150,150,.8);
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active{
+    color: rgb(0,0,0);
+    background-color:  rgba(255,255,255,.8);
+    box-shadow: 0 0 5px rgba(150,150,150,1);
+}
+/*文本颜色*/
+.text-yellow{
+    color: rgb(255,255,0);
+}
+.text-white{
+    color: rgb(255,255,255);
+}
+/*圆角*/
+.btn-round{
+    border-radius: 5px;
+}
+.btn-round:hover,
+.btn-round:focus,
+.btn-round:active{
+    border-radius: 5px;
+}
+.btn{
+    border-radius: 0;
+}
+.nav-header-feedback{
+    padding: 15px;
+}
+.img-responsive{
+    width: 100%;
+    height: 150px;
+}
+.img-login{
+    display: block;
+    margin: 0 auto;
+    /*width: 100px;*/
+    /*height: 100px;*/
+}
+.text-index{
+    text-align: center;
+}
+.container .row .item{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+.container .row .item ul li{
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    width: 33%;
+    height: 200px;
+}
+.container .row .item ul li a{
+    text-decoration: none;
+    color: rgba(150,150,150,1);
+    font-size: 20px;
+    line-height: 200px;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(78,29,76);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.container .row .item ul li a:hover{
+    color: rgb(255,255,255);
+    background-color: rgb(78,29,76);
+    box-shadow: 0 0 20px rgba(78,29,76,.8);;
+}
